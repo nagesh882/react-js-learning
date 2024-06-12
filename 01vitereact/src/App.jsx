@@ -1,5 +1,4 @@
-
-
+import Message from "./Message"
 
 
 
@@ -7,7 +6,12 @@ function App() {
 
 
   return (
-    <h1>I am learning ract using vite | Nagesh</h1>
+    <>
+
+      <h3>First you must learn HTML</h3>
+      <p>Second you must learn JavaScript</p>
+      <Message />
+    </>
   )
 }
 
